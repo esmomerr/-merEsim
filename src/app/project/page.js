@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import "@/CSS/Projects.css";
+import Image from "next/image";
 
 export default function Projects(){
     const [projects, setProjects] = useState([])
@@ -11,7 +12,7 @@ export default function Projects(){
             <div className="projects">
 
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -29,7 +30,7 @@ export default function Projects(){
 
                 
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -45,7 +46,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -61,7 +62,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -77,7 +78,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -93,7 +94,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -109,7 +110,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -125,7 +126,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -141,7 +142,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -157,7 +158,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div class="project">
-                    <img src="memory-game.jpg" alt="" className="project-img"/>
+                    <Image src="memory-game.jpg" alt="" className="project-img"/>
                     <div class="project-content">
                         <p class="project-title">project.title</p>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>

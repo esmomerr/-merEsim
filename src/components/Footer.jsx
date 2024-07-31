@@ -1,5 +1,6 @@
 import "@/CSS/Footer.css";
 import "@/CSS/style.css";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer(){
@@ -10,10 +11,10 @@ export default function Footer(){
             <div className="container">
                 <div className="footer">
                     <div className="social-links">
-                        <Link href="/" className="social-link"><img src="/instagram.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><img src="/twitter.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><img src="/linkedin.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><img src="/github-sign.png" alt="-icon" /></Link>
+                        <Link href="/" className="social-link"><Image src="/instagram.png" alt="-icon" /></Link>
+                        <Link href="/" className="social-link"><Image src="/twitter.png" alt="-icon" /></Link>
+                        <Link href="/" className="social-link"><Image src="/linkedin.png" alt="-icon" /></Link>
+                        <Link href="/" className="social-link"><Image src="/github-sign.png" alt="-icon" /></Link>
                     </div>
                     <div className="header-links footer-links">
                         <Link href="/" className="link menu-item">Home</Link>

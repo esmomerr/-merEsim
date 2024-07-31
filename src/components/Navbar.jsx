@@ -1,5 +1,6 @@
 import "@/CSS/Navbar.css";
 import "@/CSS/style.css";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar(){
@@ -20,7 +21,7 @@ export default function Navbar(){
                     {/* Desktop End */}
 
                     {/* Mobile */}
-                    <img src="menu.png" alt="MenuIcon" className="menu-icon"/>
+                    <Image src="menu.png" alt="MenuIcon" className="menu-icon"/>
                     {/* Mobile End */}
                 </nav>
             </div>
