@@ -1,0 +1,25 @@
+.footer-container{
+    background: #2a343c;
+    background: radial-gradient(circle, rgba(36, 0, 255, 1) -100%, transparent 70%);
+    margin-block-start: 68px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    gap: 32px;
+}
+
+.social-links{
+    display: flex;
+    gap: 18px;
+}
+
+
+.footer-links{
+    display: flex;
+    gap: 12px;
+}
