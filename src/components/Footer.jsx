@@ -11,10 +11,10 @@ export default function Footer(){
             <div className="container">
                 <div className="footer">
                     <div className="social-links">
-                        <Link href="/" className="social-link"><Image src="/instagram.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><Image src="/twitter.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><Image src="/linkedin.png" alt="-icon" /></Link>
-                        <Link href="/" className="social-link"><Image src="/github-sign.png" alt="-icon" /></Link>
+                        <Link href="/" className="social-link"><Image src="/instagram.png" alt="-icon" width={32} height={32}/></Link>
+                        <Link href="/" className="social-link"><Image src="/twitter.png" alt="-icon" width={32} height={32}/></Link>
+                        <Link href="/" className="social-link"><Image src="/linkedin.png" alt="-icon" width={32} height={32}/></Link>
+                        <Link href="/" className="social-link"><Image src="/github-sign.png" alt="-icon" width={32} height={32}/></Link>
                     </div>
                     <div className="header-links footer-links">
                         <Link href="/" className="link menu-item">Home</Link>

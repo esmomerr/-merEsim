@@ -21,7 +21,7 @@ export default function Navbar(){
                     {/* Desktop End */}
 
                     {/* Mobile */}
-                    <Image src="menu.png" alt="MenuIcon" className="menu-icon"/>
+                    <Image src="/menu.png" alt="MenuIcon" width={32} height={32} className="menu-icon"/>
                     {/* Mobile End */}
                 </nav>
             </div>
