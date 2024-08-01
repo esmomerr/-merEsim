@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="my-blog desktop-hidden">
                     <h3 className="my-blog-name">I am Omer Esim</h3>
                     <h1 className="my-blog-profession">Front-end Developer</h1>
-                    <p className="my-blog-description">I'm a front-end developer and I enjoy creating accessible web applications that users will love.</p>
+                    <p className="my-blog-description">Im a front-end developer and I enjoy creating accessible web applications that users will love.</p>
                     <Link href="" className="cta" download>
                         <span>Download Cv</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
@@ -40,7 +40,7 @@ export default function Home() {
                     <div className="img-container">
                         <Image src="/Omer-Esin.jpg" alt="omer-esim-image" width={300} height={300} className="omer-esim-image"/>
                     </div>
-                    <p className="my-blog-description">I'm a front-end developer and I enjoy creating accessible web applications that users will love.</p>
+                    <p className="my-blog-description">Im a front-end developer and I enjoy creating accessible web applications that users will love.</p>
                     <a href="" className="cta" download>
                         <span>Download Cv</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">

@@ -11,8 +11,8 @@ export default function Projects(){
         <div className="container">
             <h1 className="title-header">My Works</h1>
             <div className="projects">
-                {projects.map((project) =>(
-                    <div class="project">
+                {projects.map((project, index) =>(
+                    <div class="project" key={index}>
                         <Image src={project.photo} alt="" width={540} height={400} className="project-img"/>
                         <div class="project-content">
                             <p class="project-title">{project.title}</p>
