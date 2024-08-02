@@ -8,6 +8,7 @@ import "@/CSS/SlideRoll.css";
 import "@/CSS/Education.css";
 import Link from "next/link";
 import Image from "next/image";
+import projects from "@/Json/project.json"
 
 export default function Home() {
     return (
@@ -185,73 +186,23 @@ export default function Home() {
             {/* Projects Page */}
             <h1 className="title-header">My Works</h1>
             <div className="projects">
-                <div class="project">
-                    <Image src="/memory-game.jpg" alt="" width={540} height={400} className="project-img"/>
-                    <div class="project-content">
-                        <p class="project-title">Memory Game</p>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-                        <div className="project-links" >
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeyi Görüntüle</span>
-                            </a>
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeye Git</span>
-                            </a>
+                {projects.map((project, index) =>(
+                    <div className="project" key={index}>
+                        <Image src={project.photo} alt="" width={540} height={400} className="project-img"/>
+                        <div className="project-content">
+                            <p className="project-title">{project.title}</p>
+                            <p className="project-description">{project.description}</p>
+                            <div className="project-links" >
+                                <Link href={project.viewProjects} target="_blank" className="project-view">
+                                    <span className="project-view-span">Projeyi Görüntüle</span>
+                                </Link>
+                                <Link href={project.viewCode} target="_blank" className="project-view">
+                                    <span className="project-view-span">Projeye Git</span>
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="project">
-                    <Image src="/memory-game.jpg" alt="" width={540} height={400} className="project-img"/>
-                    <div class="project-content">
-                        <p class="project-title">Memory Game</p>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-                        <div className="project-links" >
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeyi Görüntüle</span>
-                            </a>
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeye Git</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <Image src="/memory-game.jpg" alt="" width={540} height={400} className="project-img"/>
-                    <div class="project-content">
-                        <p class="project-title">Memory Game</p>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        
-                        <div className="project-links" >
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeyi Görüntüle</span>
-                            </a>
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeye Git</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <Image src="/memory-game.jpg" alt="" width={540} height={400} className="project-img"/>
-                    <div class="project-content">
-                        <p class="project-title">Memory Game</p>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        
-                        <div className="project-links" >
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeyi Görüntüle</span>
-                            </a>
-                            <a href="" className="project-view">
-                                <span className="project-view-span">Projeye Git</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
             <div className="more-container">
                 <Link href="/project" className="more">More</Link>

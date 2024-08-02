@@ -1,7 +1,8 @@
 [
     {
         "title": "Order Summary Component",
-        "photo": "",
+        "photo": "/order-summary-component.JPG",
+        "description": "Bu projede, sipariş özeti bileşeni oluşturarak kullanıcılara sipariş bilgilerini kolayca görüntüleyebilecekleri şık ve modern bir kart tasarladım. Sipariş özeti kartı, kullanıcıların sipariş detaylarını özetleyen ve işlemlerini tamamlamalarına yardımcı olan bir arayüz sunuyor. Kart üzerinde ürün adı, fiyat bilgisi, abonelik türü ve toplam tutar gibi bilgilerin yanı sıra, kullanıcıların ödeme işlemlerine devam edebilecekleri ve aboneliklerini iptal edebilecekleri butonlar bulunuyor.",
         "viewCode": "https://github.com/esmomerr/order-summary-component",
         "viewProjects": "https://esmomerr.github.io/order-summary-component/",
         "language": [
@@ -11,7 +12,8 @@
     },
     {
         "title": "FAQs Accordion",
-        "photo": "",
+        "photo": "/faqs-accordion.JPG",
+        "description": "Bu projede, Sıkça Sorulan Sorular (FAQ) bölümüne sahip bir akordeon kartı oluşturduk. Akordeon kartı, kullanıcıların sıkça sorulan soruları kolayca görüntüleyebilmesi için tasarlandı. Her bir soru, tıklanabilir bir başlık olarak sunuluyor ve kullanıcı başlığa tıkladığında ilgili cevap açılarak gösteriliyor. Bu şekilde, tüm cevaplar aynı anda görünmek yerine, sadece kullanıcı tarafından seçilen sorunun cevabı açılıyor, bu da sayfanın düzenli ve kullanıcı dostu olmasını sağlıyor.",
         "viewCode": "https://github.com/esmomerr/FAQs-accordion",
         "viewProjects": "https://esmomerr.github.io/FAQs-accordion/",
         "language": [
@@ -22,7 +24,8 @@
     },
     {
         "title": "Social Links",
-        "photo": "",
+        "photo": "/social-links.jpg",
+        "description": "Bu projede, sosyal medya bağlantılarına sahip şık ve modern bir profil kartı oluşturduk. Profil kartı, kullanıcıların sosyal medya hesaplarına kolayca erişebilmesi için tasarlandı. Kart üzerinde kullanıcı adı, profil fotoğrafı ve çeşitli sosyal medya platformlarına ait ikonlar bulunuyor. Her ikon, ilgili sosyal medya hesabına yönlendiren bir bağlantı içeriyor.",
         "viewCode": "https://github.com/esmomerr/Social-Links",
         "viewProjects": "https://esmomerr.github.io/Social-Links/",
         "language": [
@@ -33,7 +36,8 @@
     },
     {
         "title": "Memor Game",
-        "photo": "",
+        "photo": "/memory-game.jpg", 
+        "description": "Bu projede, kullanıcıların hafızalarını test edebilecekleri ve eğlenceli vakit geçirebilecekleri bir hafıza oyunu oluşturdum. Hafıza oyunu, aynı kartları eşleştirme temeline dayanan klasik bir oyundur. Oyuncular, kartları çevirerek eşleşen çiftleri bulmaya çalışır ve tüm kartlar eşleştiğinde oyun tamamlanır.",
         "viewCode": "https://github.com/esmomerr/Memory_Game",
         "viewProjects": "https://esmomerr.github.io/Memory_Game/",
         "language": [
@@ -41,16 +45,6 @@
             "CSS",
             "JavaScript"   
         ]
-    },
-    {
-        "title": "Pricing Website",
-        "photo": "",
-        "viewCode": "https://github.com/esmomerr/Pricing-WebSite-Responsive",
-        "viewProjects": "https://esmomerr.github.io/Pricing-WebSite-Responsive/",
-        "language": [
-            "HTML",
-            "CSS"   
-        ]
-    }   
+    }  
 
 ]

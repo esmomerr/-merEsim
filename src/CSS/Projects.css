@@ -15,25 +15,30 @@
   background-color: #0f0715;
   border-radius: 10px;
   box-shadow: 0 0 0 5px #9b8dff;
-  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.project img {
-  width: 100%;
+.project-img{
+  width: 100% !important;
   fill: #333;
-  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .project:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px #9b8dff;
+  border-radius: 10px;
 }
 
 .project-content {
   padding: 20px;
   box-sizing: border-box;
   background-color: #814cec;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .project-title {

@@ -3,7 +3,7 @@
 	background-color: #000000;
 	padding: 16px 0;
 	overflow: hidden;
-	transform: rotate(-3deg);
+	transform: rotate(0deg);
     margin-block: 100px;
 }
 
@@ -14,7 +14,7 @@
 
 .slide-roll .roll-box-revers {
 	position: relative;
-	animation: slide-har-revers 80s linear infinite;
+	animation: slide-har-revers 40s linear infinite;
 	display: flex;
 }
 
@@ -22,7 +22,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
-	animation: slide-har 80s linear infinite;
+	animation: slide-har 40s linear infinite;
 }
 
 .roll-item {

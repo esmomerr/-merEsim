@@ -12,12 +12,11 @@ export default function Projects(){
             <h1 className="title-header">My Works</h1>
             <div className="projects">
                 {projects.map((project, index) =>(
-                    <div class="project" key={index}>
+                    <div className="project" key={index}>
                         <Image src={project.photo} alt="" width={540} height={400} className="project-img"/>
-                        <div class="project-content">
-                            <p class="project-title">{project.title}</p>
-                            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
+                        <div className="project-content">
+                            <p className="project-title">{project.title}</p>
+                            <p className="project-description">{project.description}</p>
                             <div className="project-links" >
                                 <Link href={project.viewProjects} target="_blank" className="project-view">
                                     <span className="project-view-span">Projeyi Görüntüle</span>
