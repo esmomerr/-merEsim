@@ -9,7 +9,7 @@
 
 .project {
   position: relative;
-  max-width: 540px;
+  max-width: 380px;
   width: 100%;
   height: auto;
   background-color: #0f0715;
@@ -162,6 +162,10 @@
 @media(width >= 1110px){
     .projects{
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .project {
+      max-width: 540px;
     }
     
     .project-title {

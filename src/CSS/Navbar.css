@@ -3,6 +3,9 @@
 /* Navbar */
 .navbar-container{
     background: linear-gradient(to right, #0e1418, #140c1c);
+
+    /* Light Mode */
+    /* background: linear-gradient(to right, #f6f3fc, #b7b1e7); */
     padding: 28px;
 }
 
@@ -23,6 +26,9 @@
 
 .menu-item{
     color: #f6f3fc;
+
+    /* Light Mode */
+    /* color: #0e1418; */
     position: relative;
 }
 

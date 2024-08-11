@@ -57,14 +57,24 @@
     font-size: 16px; 
     font-weight: 800;
     color: white;
+
+    /* Light Mode */
+    /* color: #000000; */
     margin: 9.6px 0 24px; 
 }
 
 .timeline-content{
     background-color: #2a1454;
+
+    /* Light Mode */
+    /* background-color: #9b8dff; */
     backdrop-filter: blur(20px);
     border: 2px solid #8750f7;
     box-shadow: 0 0 10px #2400ff;
+
+    /* Light Mode */
+    /* border: 2px solid #102039;
+    box-shadow: 0 0 10px #4654f9; */
     padding: 15px; 
     border-radius: 16px; 
     cursor: pointer;
@@ -78,7 +88,10 @@
 
 .timeline-content h3{
     font-size: 16px; 
-    color: #ea1826;
+    color: #747779;
+
+    /* Light Mode */
+    /* color: #102039; */
     margin: 0 0 16px; 
     text-transform: capitalize;
     font-weight: 700;
@@ -86,6 +99,9 @@
 
 .timeline-content p{
     color: white;
+
+    /* Light Mode */
+    /* color: #000000; */
     opacity: 0.8;
     font-size: 12px; 
     font-weight: 600;

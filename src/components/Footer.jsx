@@ -11,10 +11,18 @@ export default function Footer(){
             <div className="container">
                 <div className="footer">
                     <div className="social-links">
-                        <Link href="/" className="social-link"><Image src="/instagram.svg" alt="-icon" width={32} height={32}/></Link>
-                        <Link href="/" className="social-link"><Image src="/twitter.png" alt="-icon" width={32} height={32}/></Link>
-                        <Link href="/" className="social-link"><Image src="/linkedin.svg" alt="-icon" width={32} height={32}/></Link>
-                        <Link href="/" className="social-link"><Image src="/github-sign.svg" alt="-icon" width={32} height={32}/></Link>
+                        <div className="social-link">
+                            <Link href="/"><Image src="/instagram.svg" alt="instagram-icon" width={32} height={32}/></Link>
+                        </div>
+                        <div className="social-link">
+                            <Link href="/"><Image src="/twitter.png" alt="twitter-icon" width={32} height={32}/></Link>
+                        </div>
+                        <div className="social-link">
+                            <Link href="/"><Image src="/linkedin.svg" alt="linkedin-icon" width={32} height={32}/></Link>
+                        </div>
+                        <div className="social-link">
+                            <Link href="/"><Image src="/github.svg" alt="github-icon" width={32} height={32}/></Link>
+                        </div>
                     </div>
                     <div className="header-links footer-links">
                         <Link href="/" className="link menu-item">Home</Link>
@@ -23,7 +31,7 @@ export default function Footer(){
                         <Link href="/about" className="link menu-item">About</Link>
                     </div>
                     <Link href="/" className="logo menu-item">OmerEsim</Link>
-                    <span>&copy; 2024 Ömer Esim</span>
+                    <span>&copy;2024 Ömer Esim</span>
                 </div>
             </div>
         </div>

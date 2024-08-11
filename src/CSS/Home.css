@@ -12,6 +12,9 @@
 
 .my-blog-profession{
     background: linear-gradient(to right, #814cec, #ffffff );
+
+    /* Light Mode */
+    /* background: linear-gradient(to right, #2a1454, #814cec ); */
     -webkit-background-clip: text;
     color: transparent;
     font-size: 38px;
@@ -21,10 +24,14 @@
 .my-blog-name{
     font-size: 32px;
     font-weight: 700;
+    /* color: #0e1418; */
 }
 
 .my-blog-description{
     color: #d9d9d9;
+
+    /* Light Mode */
+    /* color: #0e1418; */
 }
 
 .img-container{
@@ -71,6 +78,9 @@
     display: block;
     border-radius: 50px;
     background: #8750f7;
+
+    /* Light Mode */
+    /* background: #1b262e; */
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
@@ -83,6 +93,9 @@
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #f6f3fc;
+
+    /* Light Mode */
+    /* color: #848588; */
 }
 
 .cta svg {
@@ -100,7 +113,10 @@
 
 .cta:hover:before {
     width: 100%;
-    background: linear-gradient(to right, #8750f7, #102039);;
+    background: linear-gradient(to right, #8750f7, #102039);
+
+    /* Light Mode */
+    /* background: linear-gradient(to right, #8750f7, #2a343c); */
 }
 
 .cta:hover svg {

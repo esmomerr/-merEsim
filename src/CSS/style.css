@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scrollbar-color: #8750f7 #2a1454;;
+    scrollbar-color: #8750f7 #2a1454;
 }
 
 body{
     background: linear-gradient(to right,  #0b0410, #102039);
+
+    /* Light Mode */
+    /* background: linear-gradient(to right,  #f6f3fc, #d9d9d9); */
     color: #f6f3fc;
 }
 
@@ -28,6 +31,9 @@ a{text-decoration: none;}
     font-size: 48px;
     font-weight: 700;
     background: linear-gradient(to right, #814cec , #ffffff);
+
+    /* Light Mode */
+    /* background: linear-gradient(to right, #102039 , #814cec); */
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -62,6 +68,8 @@ a{text-decoration: none;}
     transform: scale(0.95);
 }
 
+
+/* Tablet */
 @media(width >= 748px){
     .title-header{
         font-size: 58px;

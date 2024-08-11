@@ -1,6 +1,9 @@
 .tj-roll-section {
 	position: relative;
 	background-color: #000000;
+
+	/* Light Mode */
+	/* background-color: #4654f9; */
 	padding: 16px 0;
 	overflow: hidden;
 	transform: rotate(0deg);

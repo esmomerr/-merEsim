@@ -1,8 +1,14 @@
 .my-skills-container{
     background: linear-gradient(to right, #050709, #2400ff);
+
+    /* Light Mode */
+    /* background: linear-gradient(to right, #f6f3fc, #9b8dff); */
     margin-top: 85px;
     padding: 55px;
     box-shadow: 0 0 15px rgba(5, 7, 9, 1);
+
+    /* Light Mode */
+    /* box-shadow: 0 0 15px rgb(175, 182, 189); */
 }
 
 .my-skills{
@@ -20,22 +26,44 @@
     align-items: center;
 }
 
+/* Light Mode */
+/* .skill span{
+    color: #000000;
+} */
+
+.skill-year{
+    margin-top: 12px;
+}
+
+.skill-name{
+    margin-top: 18px;
+    font-size: 24px;
+}
+
 .img-name{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    /* gap: 12px; */
     border-radius: 18px;
     border: 1px solid #2a1454;
+
+    /* Light Mode */
+    /* border: 1px solid #9b8dff; */
     padding: 48px;
     background-color: #140c1c;
+
+    /* Light Mode */
+    /* background-color: #9b8dff; */
     transition: all 0.3s ease-in-out;
     margin-bottom: 6px;
 }
 
 .img-name:hover{
     background-color: #2a1454;
+
+    /* Light Mode */
+    /* background-color: #814cec; */
     transform: scale(1.1);
 }
 

@@ -21,8 +21,8 @@ export default function Home() {
                     <h3 className="my-blog-name">I am Omer Esim</h3>
                     <h1 className="my-blog-profession">Front-end Developer</h1>
                     <p className="my-blog-description">Im a front-end developer and I enjoy creating accessible web applications that users will love.</p>
-                    <Link href="" className="cta" download>
-                        <span>Download Cv</span>
+                    <Link href="https://drive.google.com/file/d/12CX-r92LvJhVWdDRivDUD7vHstNpSkva/view?usp=sharing" className="cta" target="_blank" passHref>
+                        <span>Click for Cv</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
                             <polyline points="8 1 12 5 8 9"></polyline>
@@ -42,13 +42,13 @@ export default function Home() {
                         <Image src="/Omer-Esin.jpg" alt="omer-esim-image" width={300} height={300} className="omer-esim-image"/>
                     </div>
                     <p className="my-blog-description">Im a front-end developer and I enjoy creating accessible web applications that users will love.</p>
-                    <a href="" className="cta" download>
-                        <span>Download Cv</span>
+                    <Link href="https://drive.google.com/file/d/12CX-r92LvJhVWdDRivDUD7vHstNpSkva/view?usp=sharing" className="cta" download>
+                        <span>Click for Cv</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
                             <polyline points="8 1 12 5 8 9"></polyline>
                         </svg>
-                    </a>
+                    </Link>
                 </div>
             </div>
             {/* Home Page End */}
@@ -63,44 +63,44 @@ export default function Home() {
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/html.png" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>HTML</span>
+                        <span className="skill-name">HTML</span>
                     </div>
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/css.png" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>CSS</span>
+                        <span className="skill-name">CSS</span>
                     </div>
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/js.png" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>Javascript</span>
+                        <span className="skill-name">Javascript</span>
                     </div>
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/react.png" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>React</span>
+                        <span className="skill-name">React</span>
                     </div>
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/supabase.png" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>Supabase</span>
+                        <span className="skill-name">Supabase</span>
                     </div>
                     <div className="skill">
                         <div className="img-name">
                             <Image src="/next-js.svg" alt="-icon" width={64} height={64}/>
-                            <span>1 years</span>
+                            <span className="skill-year">1 years</span>
                         </div>
-                        <span>Next.js</span>
+                        <span className="skill-name">Next.js</span>
                     </div>
                 </div>
             </div>
