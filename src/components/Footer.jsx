@@ -15,9 +15,6 @@ export default function Footer(){
                             <Link href="/"><Image src="/instagram.svg" alt="instagram-icon" width={32} height={32}/></Link>
                         </div>
                         <div className="social-link">
-                            <Link href="/"><Image src="/twitter.png" alt="twitter-icon" width={32} height={32}/></Link>
-                        </div>
-                        <div className="social-link">
                             <Link href="/"><Image src="/linkedin.svg" alt="linkedin-icon" width={32} height={32}/></Link>
                         </div>
                         <div className="social-link">
