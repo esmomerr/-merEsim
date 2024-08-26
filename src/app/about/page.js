@@ -1,4 +1,5 @@
 import "@/CSS/Education.css";
+import "@/CSS/style.css";
 
 export default function About(){
     return(

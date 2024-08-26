@@ -10,13 +10,13 @@ export default function Navbar(){
         <div className="navbar-container">
             <div className="container">  
                 <nav className="navbar">
-                    <Link href="/" className="logo menu-item">OmerEsim</Link>
+                    <Link href="/" className="logo menu-item text-decoration-none">OmerEsim</Link>
                     {/* Desktop */}
                     <div className="header-links navbar-desktop-hidden">
-                        <Link href="/" className="link menu-item">Home</Link>
-                        <Link href="#mySkill" className="link menu-item">Experience</Link>
-                        <Link href="/project" className="link menu-item">Project</Link>
-                        <Link href="/about" className="link menu-item">About</Link>
+                        <Link href="/" className="link menu-item text-decoration-none">Home</Link>
+                        <Link href="#mySkill" className="link menu-item text-decoration-none">Experience</Link>
+                        <Link href="/project" className="link menu-item text-decoration-none">Project</Link>
+                        <Link href="/about" className="link menu-item text-decoration-none">About</Link>
                     </div>
                     {/* Desktop End */}
 

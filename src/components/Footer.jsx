@@ -22,12 +22,12 @@ export default function Footer(){
                         </div>
                     </div>
                     <div className="header-links footer-links">
-                        <Link href="/" className="link menu-item">Home</Link>
-                        <Link href="#mySkill" className="link menu-item">Experience</Link>
-                        <Link href="/project" className="link menu-item">Project</Link>
-                        <Link href="/about" className="link menu-item">About</Link>
+                        <Link href="/" className="link menu-item text-decoration-none">Home</Link>
+                        <Link href="#mySkill" className="link menu-item text-decoration-none">Experience</Link>
+                        <Link href="/project" className="link menu-item text-decoration-none">Project</Link>
+                        <Link href="/about" className="link menu-item text-decoration-none">About</Link>
                     </div>
-                    <Link href="/" className="logo menu-item">OmerEsim</Link>
+                    <Link href="/" className="logo menu-item text-decoration-none">OmerEsim</Link>
                     <span>&copy;2024 Ömer Esim</span>
                 </div>
             </div>

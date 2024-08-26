@@ -9,19 +9,22 @@ import "@/CSS/Education.css";
 import Link from "next/link";
 import Image from "next/image";
 import projects from "@/Json/project.json"
+import WarningModal from "@/components/warningModal";
 
-export default function Home() {
+export default function Home({ Component, pageProps }) {
     return (
         <>
         <div className="container">
             {/* Home Page */}
+            <WarningModal />
+            {/* <Component {...pageProps} /> */}
             <div className="home">
                 {/* Desktop */}
                 <div className="my-blog desktop-hidden">
                     <h3 className="my-blog-name">I am Omer Esim</h3>
                     <h1 className="my-blog-profession">Front-end Developer</h1>
                     <p className="my-blog-description">Im a front-end developer and I enjoy creating accessible web applications that users will love.</p>
-                    <Link href="https://drive.google.com/file/d/12CX-r92LvJhVWdDRivDUD7vHstNpSkva/view?usp=sharing" className="cta" target="_blank" passHref>
+                    <Link href="https://drive.google.com/file/d/1qyhRtrNl_oALSOuhtQQCtk7owrhfdnxn/view?usp=sharing" className="cta" target="_blank" passHref>
                         <span>Click for Cv</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
